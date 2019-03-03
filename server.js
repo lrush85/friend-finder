@@ -13,7 +13,7 @@ app.use(require('./app/routing/apiRoutes'));
 
 
 // Establish the port
-var PORT = process.env.port || 3000;
+var PORT = process.env.PORT || 3000;
 
 // Runs server
 app.listen(PORT, function () {
